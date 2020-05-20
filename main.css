@@ -2,3 +2,7 @@ body {
 margin: 0;
 padding: 0;
 }
+.class {
+font-size: 15px;
+font-weight: 700;
+}
