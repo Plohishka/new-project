@@ -1,0 +1,507 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #5f5f62;
+	line-height: 30px;
+	}
+.header {
+	background: url('../img/header.jpg') no-repeat center;
+	background-size: cover;
+	font-weight: 700;
+}
+.header__container {
+	max-width: 1565px;
+	padding: 0 15px;
+	position: relative;
+}
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding-top: 35px;
+}
+.top__left {
+	display: flex;
+}
+.top__left-logo {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+}
+.color {
+	color: #fa7c30;
+}
+.top__left-items {
+	display: flex;
+}
+.list {
+	list-style: none;
+}
+.link {
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 20px;
+	transition: color .2s linear;
+}
+.link:hover {
+	color: #fa7c30;
+}
+.link__btn {
+	margin-right: 0px;
+	border: 2px solid #fff;
+	padding: 10px 22px;
+	transition: background .2s linear;
+}
+.link__btn:hover {
+	background: #fa7c30;
+	color: #fff;
+	border: 2px solid #fa7c30;
+}
+.top__right-items {
+	display: flex;
+}
+.header__content {
+	max-width: 640px;
+	margin-left: 210px;
+	margin-top: 160px;
+}
+.header__title {
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+	line-height: 90px;
+}
+.header__subtitle {
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+}
+.header__wrapper-btn {
+    margin-top: 70px;
+}
+.btn {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 0;
+	padding: 23px 36px;
+	background: #fa7c30;
+	display: inline-block;
+	margin-bottom: 400px;
+	transition: color .2s linear;
+	transition: background .2s linear;
+}
+.btn:hover {
+	color: #fa7c30;
+	background: #413833;
+}
+
+    /* position */
+
+.header__booking {
+	display: flex;
+	max-width: 1112px;
+	position: absolute;
+	top: 80%;
+	left: 225px;
+	z-index: 1;
+}
+.header__items { 
+	max-height: 519px;
+}
+.header__items:nth-child(2) {
+	background: #fff;
+	max-width: 760px;
+}
+.booking__wrapper {
+	max-width: 100%;
+	margin: 70px 80px;
+	text-align: center;
+}
+.booking__title-text {
+    font-weight: 700;
+	text-transform: uppercase;
+	color: #161418;
+}
+.booking__suptitle {
+	font-size: 26px;
+}
+.booking__title {
+	font-size: 36px;
+	margin: 25px 0 65px 0;
+}
+.booking__block {
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.booking__column {
+	width: 26%;
+	margin-bottom: 35px;
+	margin-left: 30px;
+	position: relative;
+}
+.booking__column::after {
+	content: '';
+	display: block;
+	border: 1px solid #161418;
+	width: 100%;
+	margin-top: 8px;
+}
+.booking__item {
+	text-align: left;
+	font-size: 14px;
+	color: #717073;
+}
+.arrow-down {
+	position: absolute;
+	top: -2px;
+	right: 0;
+	z-index: 1;
+}
+.icon {
+	position: absolute;
+	top: 3px;
+	right: 0;
+	z-index: 1;
+}
+.wrapper-btn {
+	margin-top: 35px;
+}
+
+
+
+     /* welcome-1 */
+
+.welcome-1 {
+	background: #f1f4f6;
+}
+.container__welcome-1 {
+	max-width: 1310px;
+	padding: 0 15px;
+}
+.welcome-1__block {
+	display: flex;
+	padding-top: 420px;
+}
+.welcom-1__items {
+	width: 50%;
+}
+.welcom-1__items:first-child{
+	margin: 150px 0 0 210px;
+	align-self: center;
+}
+.title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #161418;
+	text-transform: uppercase;
+}
+.welcome-1__text-1 {
+	font-size: 14px;
+	color: #161418;
+	font-weight: 700;
+	max-width: 370px;
+	margin: 20px 0;
+}
+.welcome-1__text-2 {
+	font-size: 14px;
+	color: #999a9d;
+	max-width: 370px;
+	margin-bottom: 60px;
+}
+
+     /* welcome-2 */
+
+.welcome-2 {
+}
+.welcome-2__container {
+	margin: 0 120px;
+}
+.top__title {
+	padding-top: 75px;
+}
+.subtitle {
+	font-size: 14px;
+	margin: 25px 0 45px 0;
+}
+.welcome-2__block {
+	display: flex;
+	margin-bottom: 80px;
+}
+.welcome-2__column {
+	width: 33.333%;
+	justify-content: space-between;
+	display: flex;
+}
+.column__item {
+    max-width: 350px;
+	display: flex;
+	flex-direction: column;
+}
+.column__wrapper {
+	color: #161418;
+	padding: 40px 60px 0px 40px;
+	background: #f1f4f6;
+	flex: 1 1 auto;
+	max-height: 300px;
+}
+.column__title {
+	font-size: 26px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+.column__text {
+	padding-bottom: 30px;
+}
+
+        /* indiv */
+
+.indiv {
+	background: url(../img/indiv.jpg) no-repeat center;
+}
+.indiv__container {
+}
+.indiv__content {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	max-width: 700px;
+	max-height: 250px;
+	padding: 200px 0 140px 0;
+	margin: 0 auto;
+}
+.indiv__suptitle {
+	font-size: 36px;
+	
+}
+.indiv__title {
+	font-size: 70px;
+	font-weight: 700;
+	margin: 35px 0 45px 0;
+}     
+
+       /* team */  
+
+.team {
+	background: #f1f4f6;
+}
+.team__container {
+	margin: 0 120px;
+}
+.top__title {
+}
+.title {
+}
+.color {
+}
+.subtitle {
+}
+.team__block {
+	display: flex;
+}
+.team__column {
+	width: 33.333%;
+}
+.team__item {
+	text-align: center;
+	max-height: 545px;
+	align-items: center;
+	padding-bottom: 80px;
+}
+.team__img {
+	height: 379px;
+}
+.team__name {
+	font-size: 26px;
+	font-weight: 700;
+	color: #333236;
+	margin-top: 40px;
+}
+.team__function {
+	font-size: 14px;
+	font-weight: 700;
+	color: #f89458;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+.team__text {
+	color: #161418;
+	font-weight: 500;
+	max-width: 345px;
+}
+
+         /* info */
+
+.info {
+	height: 279px;
+	margin-bottom: 88px;
+}
+.info__block {
+	display: flex;
+}
+.info__item {
+	width: 50%;
+}
+.info__wrapper-1 {
+	position: relative;
+}
+.desk-1 {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	z-index: 1;
+}
+.info__wrapper-2 {
+	position: relative;
+}
+.desk-2 {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	z-index: 1;
+}
+.info__img {
+	max-width: 100%;
+}
+.info__desk {
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	height: 200px;
+}
+.info__suptitle {
+	font-size: 18px;
+}
+.info__title {
+	font-size: 46px;
+	margin: 30px 0 45px 0;
+}
+      /* footer */   
+
+.footer {
+	background: #161418;
+}   
+.footer__container {
+	margin: 0 120px;
+}   
+.footer__block {
+	display: flex;
+	padding-top: 95px;
+	padding-bottom: 20px;
+}
+.footer__column {}
+
+
+.fitness {
+	max-width: 440px;
+}
+.fitness__text {
+	font-size: 14px;
+	color: #908f91;
+	margin: 50px 0 60px 0;
+}
+.fitness__services {
+	margin-bottom: 40px; 
+	font-size: 15px;
+	color: #fff;
+}
+.fitness__link {
+	margin-left: 10px;
+	color: #fff;
+	transition: color .1s linear;
+}
+.fitness__link:hover {
+	color: #fa7c30;
+}
+.fitness__input-form {}
+.input {
+	padding: 12px 60px 12px 10px;
+}
+::placeholder {
+	color: #dfdfdf;
+	font-size: 15px;
+}
+.fitness__btn {
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	background: #fa7c30;
+	padding: 12px 30px 13px 30px;
+	transition: color .2s linear;
+	transition: background .2s linear;
+}
+.fitness__btn:hover {
+	color: #a36b34;
+	background: #213956;
+}
+
+.blogs {
+	max-width: 340px;
+	font-size: 14px;
+	color: #e2e2e2;
+	height: 100%;
+}
+.blogs__title {
+	text-transform: uppercase;
+}
+.blogs__block {}
+.blogs__item {
+	position: relative;
+	margin-top: 30px;
+}
+.blogs__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.blogs__text {
+	margin-left: 135px;
+}
+
+.instagram {
+	max-width: 260px;
+	color: #f0f0f1;
+}
+.instagram__title {
+	font-size: 13.5px;
+	text-transform: uppercase;
+}
+.instagram__block {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 35px 0 18px 0;
+}
+.instagram__img {
+	max-width: 100%;
+	width: 33.333%;
+}
+.view {
+	color: #f0f0f1;
+	font-size: 12.3px;
+	transition: color .1s linear;
+}
+.view:hover {
+	color: #fa7c30;
+}
+.footer__footer {
+	font-size: 14px;
+	color: #fa7c30;
+	max-width: 185px;
+	margin: 0 auto;
+	margin-top: 70px;
+	padding-bottom: 40px;
+}
