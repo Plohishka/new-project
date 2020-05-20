@@ -1,0 +1,7 @@
+# file css
+/blublu.css
+
+# txt-files
+docs/*.txt
+
+/node_modules
