@@ -1,33 +1,23 @@
-function plus() {
-    var num1, num2, result;
-    num1 = document.getElementById("n1").value;
-    num1 = parseInt(num1);
+var prNum, tempOut;
 
-    num2 = document.getElementById("n2").value;
-    num2 = parseInt(num2);
+prNum = Math.floor((Math.random() * 10) + 1);
+// tempOut = document.getElementById("temp-out");
+// tempOut.innerHTML = prNum;
+console.log(prNum);
 
-    result = num1 + num2;
-    document.getElementById("out").innerHTML = result;
-}
+function f1() {
+    var num, out;
 
-function minus() {
-    num1 = document.getElementById("n1").value;
-    num1 = parseInt(num1);
+    num = document.getElementById("mynum").value;
+    out = document.getElementById("out");
 
-    num2 = document.getElementById("n2").value;
-    num2 = parseInt(num2);
-
-    result = num1 - num2;
-    document.getElementById("out").innerHTML = result;
-}
-
-function multiply() {
-    num1 = document.getElementById("n1").value;
-    num1 = parseInt(num1);
-
-    num2 = document.getElementById("n2").value;
-    num2 = parseInt(num2);
-
-    result = num1 * num2;
-    document.getElementById("out").innerHTML = result;
+    if (num == prNum) {
+        out.innerHTML = "Вы угадали!!!";
+    }
+    else if (num > prNum) {
+        out.innerHTML = "Вы ввели число больше чем нужно";
+    }
+    else {
+        out.innerHTML = "Вы ввели число меньше чем нужно";
+    }
 }
