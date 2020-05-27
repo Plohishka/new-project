@@ -1,23 +1,11 @@
-var prNum, tempOut;
+document.getElementById('slider-left').onclick = sliderleft;
+var left = 0;
 
-prNum = Math.floor((Math.random() * 10) + 1);
-// tempOut = document.getElementById("temp-out");
-// tempOut.innerHTML = prNum;
-console.log(prNum);
-
-function f1() {
-    var num, out;
-
-    num = document.getElementById("mynum").value;
-    out = document.getElementById("out");
-
-    if (num == prNum) {
-        out.innerHTML = "Вы угадали!!!";
+function sliderleft() {
+    var polosa = document.getElementById('polosa');
+    left = left - 128;
+    if (left < -512) {
+        left = 0;
     }
-    else if (num > prNum) {
-        out.innerHTML = "Вы ввели число больше чем нужно";
-    }
-    else {
-        out.innerHTML = "Вы ввели число меньше чем нужно";
-    }
+    polosa.style.left = left + 'px';
 }
